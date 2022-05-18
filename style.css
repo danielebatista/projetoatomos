@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+    
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    color: rgb(14, 13, 12);
+    text-decoration:overline;
+
+}
+body {
+    background: url(./pexels-rebeca-gonçalves-1770310.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#logo {
+    height: 180px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(5, 4, 4);
+    
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 45, 56);
+}
+#arrow {
+    color: rgb(255, 186, 58);
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+}
+
+@keyframes blink {
+    to{
+        visibility: hidden;
+    }
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active {
+    display: block !important;
+}
+
+.form {
+    width: 40%;
+    
+}
+.form input{
+    width: 50%;
+
+}
+header ul li a:hover{
+    color: #c05745;
+    cursor: pointer;
+
+}
+
+button{
+    background-color: aquamarine;
+    border-color: aquamarine;
+    size-adjust: 150px;
+    border-radius: 07px;
+}
+
+#botao a {
+    color:rgb(10, 10, 10);
+    margin: 10px;
+    text-decoration: none;
+    mask-size: 100px;
+    
+}
+button a:hover{
+    background-color: rgb(130, 198, 243) ;
+    cursor: pointer;
+
+}

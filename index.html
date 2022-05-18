@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/fa5edb89f4.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>@ElaéCarioca</title>
+
+    </head>
+        <header>
+            <ul>
+            <div id="logo"> 
+                <img src="./cariiii.png" width="100% ">
+                
+            </div>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/elaecarioca_modas/"> Instagram </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.facebook.com/Elaecarioca/">Facebook</a>
+            </li>
+            <li>
+                <a target="_blank"> Shopee</a>
+            </li>
+         </ul>
+        </header>
+        <main>
+            <section calss="container">
+                <div onclick="displayabout()" id="arrow">
+                    <i id="animation" class="fa-solid fa-sun"></i>
+                </div>
+                <div style="display:none;" id="about">
+                    <h4> QUEM SOMOS?</h4>
+                    <p>     
+                Uma loja on-line de moda fitness e moda praia, </br>
+                e claro que também temos aquele acessório para você arrasar!</br>
+                Enviamos para qualquer lugar que você esteja :)
+                    </p>
+                </div>
+                <div id="botao">
+                    <button>
+                        <a target="_blank" href="https://wa.me/21969681945"> Whatsapp</a>
+                    </button>
+                    <button>
+                        <a target="_blank"> Catálogo</a></button> </br>
+                    </button>
+                    <button>
+                        <a img src="./pagamento.jpg" > formas de pagamento</a> 
+                    </button> </br>
+                    <button> 
+                        <a target="_blank" href="https://www2.correios.com.br/sistemas/precosprazos/"> Calcule seu frete</a>
+                    </button>
+                </div> </br></br></br>
+                <div> 
+                    <form action="">
+                        <h5> Quer receber nossas novidades?</h5>
+                        <input type="text" placeholder="Seu melhor e-mail :)">
+                        <button>enviar!</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <script>
+            function displayabout() {
+                var arrow=document.getElementById('animation')
+                arrow.classList.toggle('rotate')
+                var display=document.getElementById('about')
+                display.classList.toggle('active')
+            }
+        </script>
+</html>
